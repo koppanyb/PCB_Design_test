@@ -1,0 +1,8 @@
+//LED Control
+
+syntax = "proto2";
+
+message LedControl {
+    required int32 LED = 1;
+}
+
